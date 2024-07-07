@@ -1,0 +1,97 @@
+:root {
+  --primary-color: #4CAF50;
+  --text-color: #333;
+  --background-color: #f4f4f4;
+  --header-font-size: 8vmin;
+  --subheader-font-size: 4vmin;
+  --section-title-font-size: 5vmin;
+  --padding: 4vmin;
+  --border-width: 1vmin;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+header {
+  background-color: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  padding: var(--padding) 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: var(--header-font-size);
+}
+
+header h2 {
+  margin: 0;
+  font-size: var(--subheader-font-size);
+}
+
+main {
+  padding: var(--padding);
+  max-width: 100%;
+}
+
+section {
+  margin-bottom: var(--padding);
+}
+
+section h3 {
+  font-size: var(--section-title-font-size);
+  border-bottom: var(--border-width) solid var(--primary-color);
+  padding-bottom: 0.5em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: #fff;
+  margin: 0.5em 0;
+  padding: var(--padding);
+  border-left: var(--border-width) solid var(--primary-color);
+}
+
+#contact p {
+  margin: 0.5em 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: var(--padding) 0;
+  position: relative;
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  main {
+      max-width: 800px;
+      margin: auto;
+  }
+
+  section h3 {
+      font-size: calc(var(--section-title-font-size) * 0.8);
+  }
+}
+
+@media (min-width: 900px) {
+  :root {
+      --header-font-size: 4vmin;
+      --subheader-font-size: 2vmin;
+      --section-title-font-size: 3vmin;
+      --padding: 2vmin;
+      --border-width: 0.5vmin;
+  }
+}
