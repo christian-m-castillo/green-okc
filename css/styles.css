@@ -47,7 +47,24 @@ ul {
   line-height: 1.7rem;
 }
 
+#contact {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:  0 3vmin 5vmin 3vmin;
+  margin: 7vmin;
+}
+
+#contact a {
+  color: green;
+}
+
 footer {
-  text-align: right;
-  margin-right: 3vmin;
+  text-align: center;
+  padding: 5vmin;
+  background-color: green;
+  color: #fff;
+  height: 12vmin;
 }
