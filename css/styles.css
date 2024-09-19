@@ -31,6 +31,8 @@ main {
   max-width: 700px;
   margin: auto;
   padding: 2vmin 7vmin;
+  flex-direction: column;
+  align-items: center;
 }
 
 
@@ -44,7 +46,8 @@ main {
 }
 
 ul {
-  line-height: 1.7rem;
+  line-height: 4vmin;
+  font-size: 2.5vmin;
 }
 
 #contact {
@@ -55,6 +58,14 @@ ul {
   align-items: center;
   padding:  0 3vmin 5vmin 3vmin;
   margin: 7vmin;
+}
+
+#contact h3 {
+  font-size: 3.2vmin;
+}
+
+#contact p {
+  font-size: 2.8vmin;
 }
 
 #contact a {
@@ -68,3 +79,56 @@ footer {
   color: #fff;
   height: 12vmin;
 }
+/*
+.container {
+  padding: 20px;
+  margin-top: 5vmin;
+  padding: 5vmin;
+  border-radius: 15px;
+  border: 1px solid #333;
+  width: 100%;
+}
+
+.container h1 {
+  color: #4CAF50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#successMessage {
+  color: green;
+  text-align: center;
+  margin-top: 20px;
+}
+*/
